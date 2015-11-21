@@ -1,4 +1,4 @@
-# Human Activity Recognition Using Smartphones Data Set Code Book
+# Human Activity Recognition Data Set Code Book
 
 ####Abstract:
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -6,11 +6,18 @@ Human Activity Recognition database built from the recordings of 30 subjects per
 
 The `tidy_dataset.txt` dataset fields labels.
 
-## Subject and Activity IDs and Activity Names
+## IDs and Labels
 
 * `Subject_ID` - The ID of the test subject
-* `Activity_ID` - The type of activity performed when the corresponding measurements were taken
+* `Activity_ID` - The type of activity performed when the corresponding measurements were taken (ID 1-6)
 * `Activity` - Activity labels
+
+* `1 - WALKING` : test subject was walking
+* `2 - WALKING_UPSTAIRS` : test subject was walking up a staircase
+* `3 - WALKING_DOWNSTAIRS` : test subject was walking down a staircase
+* `4 - SITTING` : test subject was sitting
+* `5 - STANDING` : test subject was standing
+* `6 - LAYING` : test subject was laying down
 
 
 ## Inertial Sensor Data Fields
@@ -95,11 +102,3 @@ The `tidy_dataset.txt` dataset fields labels.
 * `fBodyBodyGyroJerkMag.mean..`
 * `fBodyBodyGyroJerkMag.meanFreq..`
 
-## Activity IDs and Names
-
-* `WALKING` (value `1`): subject was walking during the test
-* `WALKING_UPSTAIRS` (value `2`): subject was walking up a staircase during the test
-* `WALKING_DOWNSTAIRS` (value `3`): subject was walking down a staircase during the test
-* `SITTING` (value `4`): subject was sitting during the test
-* `STANDING` (value `5`): subject was standing during the test
-* `LAYING` (value `6`): subject was laying down during the test
