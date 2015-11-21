@@ -2,8 +2,8 @@
 # PROJECT 1 By Servo Poserio
 # Created: Nov. 18, 2015
 
-install.packages("plyr")
-library(plyr)
+require("plyr")
+
 # Set work directory
 setwd("~/workdiR/Course3-4/Getting and Cleaning Data/week3/Project1")
 
