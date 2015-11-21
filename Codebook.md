@@ -11,7 +11,6 @@ The `tidy_dataset.txt` dataset fields labels.
 * `Subject_ID` - The ID of the test subject
 * `Activity_ID` - The type of activity performed when the corresponding measurements were taken (ID 1-6)
 * `Activity` - Activity labels
-
 * `1 - WALKING` : test subject was walking
 * `2 - WALKING_UPSTAIRS` : test subject was walking up a staircase
 * `3 - WALKING_DOWNSTAIRS` : test subject was walking down a staircase
