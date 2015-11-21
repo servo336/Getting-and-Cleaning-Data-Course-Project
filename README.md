@@ -22,7 +22,7 @@ This method uses the R native functions such as cbind, rbind and merge functions
 This step selects only the required columns and processed the values by extracting only the measurements on the mean and standard deviation for each measurement.
 
 #### Data Labeling
-Method in step 4 (see run_analysis.R) that handles column labeling using descriptive names and approriate labels.
+Method in step 4 (see run_analysis.R) that handles column labeling using descriptive names and appropriate labels.
 
 #### Data Formatting and Reproduction
 Data is reproduced independently after sanitizing, organizing and calculating the average of each variable for each activity on each data field. The reproduced dataset is saved as a comma separated value in a text file.
