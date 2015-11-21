@@ -10,19 +10,19 @@ The included R script in this repository demonstrates another amazing capability
 
 ## Methodology
 
-### Data Collection and Extraction
+#### Data Collection and Extraction
 The compressed raw dataset is downloaded online and extracted programmatically in R. 
-A detailed specification of the dataset can be found at [The UCI Machine Learning](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) Repository. 
+A detailed specification of the dataset can be found at [The UCI Machine Learning Repository.](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)  
 The raw dataset can be [downloaded here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-### Data Binding and Merging
-This method uses the R native functions such as cbind, rbind and merge functions to combine various datasets into a single data set.
+#### Data Binding and Merging
+This method uses the R native functions such as cbind, rbind and merge functions to combine various datasets into a single dataset.
 
-### Data Subsetting and Processing
+#### Data Subsetting and Processing
 This step selects only the required columns and processed the values by extracting only the measurements on the mean and standard deviation for each measurement.
 
-### Data Labeling
+#### Data Labeling
 Method in step 4 (see run_analysis.R) that handles column labeling using descriptive names and approriate labels.
 
-### Data Formatting and Reproduction
-Data is reproduced independently after sanitizing, organizing and calculating the average of each variable for each activity on each data field. The reproduced dataset is saved as a comma separated value in a text format.
+#### Data Formatting and Reproduction
+Data is reproduced independently after sanitizing, organizing and calculating the average of each variable for each activity on each data field. The reproduced dataset is saved as a comma separated value in a text file.
